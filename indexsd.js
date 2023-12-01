@@ -1,4 +1,4 @@
-const { createClient } = require("@supabase/supabase-js");
+const { createClient } = require("@supabase/supabase-js"); // 데이터 소스 적용하려다 실패함....또 도전을....!!!
 const { ApolloServer } = require("@apollo/server");
 const { startStandaloneServer } = require("@apollo/server/standalone");
 
